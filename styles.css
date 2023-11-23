@@ -1,0 +1,619 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, transparent, #ffffff00), url(images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+header nav ul{
+    color: #080808;
+    display: flex;
+    gap: 1.2em;
+    list-style: none;
+    font-family: cursive, Times, serif;
+    margin: 0em 1em;
+}
+header{
+    background-color: #fbdfffbe;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main section div h2{
+    display: flex;
+    font-family: Abril Fatface;
+    justify-content: center;
+    font-size: 300%;
+}
+.parrafo1{
+    display: flex;
+    font-size: 125%;
+    font-family: cursive;
+    justify-content: center;
+    text-align: center;
+    margin: 3em 0.1em 0em 0.1em;
+}
+.fotosintro img{
+    height: 14.55em;
+    display: inline-block;
+    justify-content: space-around;
+    margin: 2em 0em;
+    padding-top: 1em;
+    position: relative;
+}
+.foto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 8em;
+    padding: 2em;
+}
+.h1{
+    font-size: 300%;
+    font-family:Abril Fatface;
+    background-color: #fbdfffbe;
+    display: flex;
+    justify-content: center;
+    margin: 2.5em 0em 0.1em em;
+}
+.parrafo2{
+    font-size: 120%;
+    font-family: cursive;
+    text-align: center;
+}
+.foto img{
+    height: 400px;
+}
+.trabajo1{
+    font-size: 300%;
+    font-family:Abril Fatface;
+    background-color: #fbdfffbe;
+    display: flex;
+    justify-content: center;
+}
+.text-trabajo{
+    font-size: 120%;
+    font-family: cursive;
+    margin: 0.3em 15em;
+    padding: 0.3em 1em;
+    text-align: center;
+}
+.container{
+    display: flex;
+    margin: 1em;
+    padding: 2em 4em;
+    justify-content: space-evenly;
+}
+.card-container{
+    margin: 2em;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    border: 0.6em solid #ffa8e9;
+    border-radius: 5%;
+    padding: 1em 0.2em;
+    height: 22em;
+    max-width: 22em;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.imagecontainer1{
+    border: 0.5em solid #fca5e6d2;
+    border-radius: 1.3em;
+    width: 15em;
+    height: 15em;
+}
+.imagecontainer1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}
+.imagecontainer2{
+    border: 0.5em solid #fca5e6d2;
+    border-radius: 1.3em;
+    width: 15em;
+    height: 15em;
+}
+.imagecontainer2 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}
+.imagecontainer3{
+    border: 0.5em solid #fca5e6d2;
+    border-radius: 1.3em;
+    width: 15em;
+    height: 15em;
+}
+.imagecontainer3 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}
+.text{
+    font-size: 1.1em;
+    font-family: cursive;
+    width: 80%;
+    text-align: center;
+}
+.introhobbies{
+    font-size: 120%;
+    font-family: cursive;
+    text-align: center;
+}
+.container1{
+    display: flex;
+    margin: 1em;
+    padding: 2em 4em;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+/*.card-container1{
+    margin: 1em;
+    padding: 2em 2em;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+} si lo pongo se desajusta*/
+.card1{
+    border: 0.25em dashed #ffa8e9;
+    margin: 0.3em 3em 1em 6em;
+    padding: 0.2em 0.3em;
+    height: 14em;
+    max-width: 27em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.imagedeporte{
+    border: none;
+    width: 13em;
+    height: 13em;
+}
+.imagedeporte img{
+    height: 13em;
+    width: 13em;
+}
+.deporte{
+    padding: 1.5em;
+    font-family: cursive;
+}
+.imageviaje{
+    border: none;
+    width: 13em;
+    height: 13em;
+}
+.imageviaje img{
+    height: 13em;
+    width: 13em;
+}
+.viaje{
+    padding: 1.5em;
+    font-family: cursive;
+}
+.imagemiyu{
+    border: none;
+    width: 13em;
+    height: 13em;
+}
+.imagemiyu img{
+    height: 13em;
+    width: 13em;
+}
+.miyuki{
+    padding: 1.5em;
+    font-family: cursive;
+}
+.imagemaqui{
+    border: none;
+    width: 13em;
+    height: 13em;
+}
+.imagemaqui img{
+    height: 13em;
+    width: 11em;
+}
+.maquillaje{
+    padding: 1.5em;
+    font-family: cursive;
+}
+.imagecomida{
+    border: none;
+    width: 13em;
+    height: 13em;
+}
+.imagecomida img{
+    height: 13em;
+    width: 13em;
+}
+.comida{
+    padding: 1.5em;
+    font-family: cursive;
+}
+.generalform{
+    font-family: cursive;
+    padding: 1em;
+    border: 0.3em solid #fcb9eb;
+    margin:0.9em 28em;
+    width: 23em;
+    height: 15em;
+    display: inline-block;
+    justify-content: center;
+    align-items: baseline;
+}
+h2{
+    padding: 1em 2em;
+    margin: 0.1em;
+    font-size: 1em;
+    justify-content: center;
+}
+.form-row{
+    justify-content: baseline;
+    align-items: baseline;
+    width: 20em;
+    height: 2em;
+    padding: 0.25em;
+}
+.form{
+    padding: 0.1em 5em;
+    margin: 0.1em;
+    font-size: 1em;
+    justify-content: center;
+    align-items: baseline;
+}
+.button{
+    background-color: #fbdfffbe;
+    margin: 1em;
+}
+footer nav ul{
+    color: #080808;
+    display: flex;
+    gap: 1.2em;
+    list-style: none;
+    font-family: cursive;
+    font-size: 1.3em;
+    margin: 0em 1em;
+    align-items: center;
+    text-decoration: none;
+}
+footer{
+    background-color: #fbdfffbe;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link{
+    color: #080808;
+}
+.heart{
+    position: fixed;
+    bottom: 5.2em;
+    right: 1.3em;
+}
+#check{
+    display: none;
+}
+.checkbtn{
+    font-size: 150%;
+    color: #080808;
+    float: right;
+    line-height: 100%;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+/*medias queries*/
+@media (max-width: 768px){
+    .card-container{
+        width: 45%;
+    }
+    .checkbtn{
+        display: block;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to bottom, transparent, #ffffff00), url(images/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    header nav ul{
+        color: #080808;
+        display: flex;
+        gap: 1.2em;
+        list-style: none;
+        font-family: cursive;
+        margin: 0em 1.5em;
+        font-size: 0.8em;
+    }
+    header{
+        background-color: #e0dfffbe;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    main section div h2{
+        display: flex;
+        font-family: Abril Fatface;
+        justify-content: center;
+        text-align: center;
+        font-size: 300%;
+    }
+    .parrafo1{
+        display: flex;
+        font-size: 100%;
+        font-family: cursive;
+        justify-content: center;
+        text-align: center;
+        margin: 3em 0.1em 0em 0.1em;
+    }
+    .fotosintro img{
+        height: 6.1em;
+        display: inline-block;
+        justify-content: space-around;
+        margin: 2em 0em;
+        padding-top: 1em;
+        position: relative;
+    }
+    .foto{
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2em 3em;
+        padding: 2em;
+    }
+    .h1{
+        font-size: 300%;
+        font-family:Abril Fatface;
+        background-color: #e0dfffbe;
+        display: flex;
+        justify-content: center;
+        margin: 2em 0em 0.1em;
+        text-align: center;
+    }
+    .parrafo2{
+        font-size: 100%;
+        font-family: cursive;
+        text-align: center;
+        margin: 0.1em;
+        padding: 0.1em;
+    }
+    .foto img{
+        height: 250px;
+    }
+    .trabajo1{
+        font-size: 300%;
+        font-family:Abril Fatface;
+        background-color: #e0dfffbe;
+        display: flex;
+        justify-content: center;
+        margin: 0.1em;
+        padding: 0.3em;
+    }
+    .text-trabajo{
+        font-size: 100%;
+        font-family: cursive;
+        margin: 0.1em 0.5em;
+        padding: 0.1em 0.5em;
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        margin: 0.01em;
+        padding: 1em 2.3em;
+        justify-content: space-evenly;
+    }
+    .card-container{
+        margin: 0.5em;
+        width: 45%;
+        display: flex;
+        justify-content: center;
+    }
+    .card{
+        border: 0.3em solid #9794f3be;
+        border-radius: 5%;
+        padding: 1em 0.2em;
+        height: 12em;
+        max-width: 12em;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .imagecontainer1{
+        border: 0.2em solid #b4b2f7be;
+        border-radius: 2%;
+        width: 6em;
+        height: 6em;
+    }
+    .imagecontainer1 img{
+        height: 100%;
+        width: 100%;
+        border-radius: 2%;
+    }
+    .imagecontainer2{
+        border: 0.2em solid #b4b2f7be;
+        border-radius: 2%;
+        width: 6em;
+        height: 6em;
+    }
+    .imagecontainer2 img{
+        height: 100%;
+        width: 100%;
+        border-radius: 2%;
+    }
+    .imagecontainer3{
+        border: 0.2em solid #b4b2f7be;
+        border-radius: 2%;
+        width: 6em;
+        height: 6em;
+    }
+    .imagecontainer3 img{
+        height: 100%;
+        width: 100%;
+        border-radius: 2%;
+    }
+    .text{
+        font-size: 70%;
+        font-family: cursive;
+        width: 80%;
+        text-align: center;
+    }
+    .introhobbies{
+        font-size: 110%;
+        font-family: cursive;
+        text-align: center;
+    }
+    .container1{
+        display: flex;
+        margin: 0.1em;
+        padding: 1em 2em;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .card1{
+        border: 0.3em dashed #9794f3be;
+        margin: 0.1em 1em 1em 3em;
+        padding: 0.3em 0.3em;
+        height: 10em;
+        max-width: 30em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+    .imagedeporte{
+        border: none;
+        width: 10em;
+        height: 10em;
+    }
+    .imagedeporte img{
+        height: 10em;
+        width: 10em;
+    }
+    .deporte{
+        padding: 1.5em;
+        font-family: cursive;
+    }
+    .imageviaje{
+        border: none;
+        width: 10em;
+        height: 10em;
+    }
+    .imageviaje img{
+        height: 10em;
+        width: 10em;
+    }
+    .viaje{
+        padding: 1.5em;
+        font-family: cursive;
+    }
+    .imagemiyu{
+        border: none;
+        width: 10em;
+        height: 10em;
+    }
+    .imagemiyu img{
+        height: 10em;
+        width: 10em;
+    }
+    .miyuki{
+        padding: 1.5em;
+        font-family: cursive;
+    }
+    .imagemaqui{
+        border: none;
+        width: 10em;
+        height: 10em;
+    }
+    .imagemaqui img{
+        height: 10em;
+        width: 8em;
+    }
+    .maquillaje{
+        padding: 1.5em;
+        font-family: cursive;
+    }
+    .imagecomida{
+        border: none;
+        width: 10em;
+        height: 10em;;
+    }
+    .imagecomida img{
+        height: 10em;
+        width: 10em;
+    }
+    .comida{
+        padding: 1.5em;
+        font-family: cursive;
+    }
+    footer nav ul{
+        color: #080808;
+        display: flex;
+        gap: 1.2em;
+        list-style: none;
+        font-family: cursive;
+        font-size: 0.8em;
+        margin: 0em 1em;
+        align-items: center;
+        text-decoration: none;
+    }
+    footer{
+        background-color: #e0dfffbe;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .generalform{
+        font-family: cursive;
+        padding: 1em;
+        border: 0.3em solid #b4b2f7be;
+        margin:0.9em 5em;
+        width: 23em;
+        height: 15em;
+        display: inline-block;
+        justify-content: center;
+        align-items: baseline;
+    }
+    h2{
+        padding: 1em 2em;
+        margin: 0.1em;
+        font-size: 1em;
+        justify-content: center;
+    }
+    .form-row{
+        justify-content: baseline;
+        align-items: baseline;
+        width: 20em;
+        height: 2em;
+        padding: 0.25em;
+    }
+    .form{
+        padding: 0.1em 5em;
+        margin: 0.1em;
+        font-size: 1em;
+        justify-content: center;
+        align-items: baseline;
+    }
+    .button{
+        background-color: #b4b2f7be;
+        margin: 1.1em;
+    }
+
+
+
+
+
+
+@media (min-width: 1024px){
+    .card-container{
+        width: 30%;
+    }
+}}
